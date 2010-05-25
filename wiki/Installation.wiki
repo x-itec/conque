@@ -1,7 +1,5 @@
 
 
-= Installation Instructions =
-
 == Requirements ==
 
   * Unix-like operating system, or Cygwin.
