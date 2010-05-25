@@ -1,0 +1,32 @@
+#Detailed installation instructions
+
+= Requirements =
+
+  * Unix-like operating system, or Cygwin.
+  * Python 2.3
+  * Vim 7.1 (python-enabled)
+
+= Installation =
+
+=== Vimball ===
+
+Vim is now bundled with a plugin management utility called "Vimball", and it can be used to install Conque. First, download a `.vba` version of conque to any location on your hard drive. Then perform the following commands:
+
+{{{
+vim conque_term_XXX.vba
+:so %
+:q
+}}}
+
+The `:ConqueTerm` command will now be available the next time you start Vim. You can delete the `.vba` file after you have verified Conque was installed successfully.
+
+=== Zip Archive ===
+
+Alternatively, you can download a `.zip` or `.tar.gz` archive of Conque. Copy the files into the following locations:
+
+{{{
+ $HOME/.vim/autoload/conque_term.vim
+ $HOME/.vim/doc/conque_term.txt
+ $HOME/.vim/plugin/conque_term.vim
+ $HOME/.vim/syntax/conque_term.vim
+}}}
