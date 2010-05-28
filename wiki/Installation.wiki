@@ -1,3 +1,8 @@
+
+  * <a href="#requirements">Requirements</a>
+  * <a href="#installation">Installation instructions</a>
+  * <a href="#troubleshooting">Troubleshooting</a>
+
 ----
 == Requirements ==
 
@@ -6,7 +11,7 @@
   * Vim 7.1 (python-enabled)
 
 ----
-== Installation ==
+== Installation instructions ==
 
 === Vimball ===
 
@@ -30,3 +35,6 @@ Alternatively, you can download a `.zip` or `.tar.gz` archive of Conque. Copy th
  $HOME/.vim/plugin/conque_term.vim
  $HOME/.vim/syntax/conque_term.vim
 }}}
+
+----
+== Troubleshooting ==
