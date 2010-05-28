@@ -1,4 +1,3 @@
-
   * [#Basic_Usage Basic Usage]
   * [#Special_Keys Special Keys]
   * [#Configuration Configuration Options]
@@ -22,7 +21,7 @@ To open Conque in a new horizontal or vertical buffer use:
 :ConqueTermTab <command>
 }}}
 
-All text typed in insert mode will be sent to your shell. 
+All text typed in `INSERT` mode will be sent to your shell. You can navigate/search/page through your output in `NORMAL` mode. 
 
 ----
 == Special Keys ==
@@ -32,4 +31,36 @@ Use the `<F9>` key to send a visual selection from any buffer to the shell.
 ----
 == Configuration ==
 
+==== let g:ConqueTerm_EscKey = '<Esc>' ====
 
+
+" Enable color. {{{
+" If your apps use a lot of color it will slow down the shell.
+if !exists('g:ConqueTerm_Color')
+    let g:ConqueTerm_Color = 1
+endif " }}}
+
+" TERM environment setting {{{
+if !exists('g:ConqueTerm_TERM')
+    let g:ConqueTerm_TERM =  'vt100'
+endif " }}}
+
+" Syntax for your buffer {{{
+if !exists('g:ConqueTerm_Syntax')
+    let g:ConqueTerm_Syntax = 'conque_term'
+endif " }}}
+
+" Keep on updating the shell window after you've switched to another buffer {{{
+if !exists('g:ConqueTerm_ReadUnfocused')
+    let g:ConqueTerm_ReadUnfocused = 0
+endif " }}}
+
+" Use this regular expression to highlight prompt {{{
+if !exists('g:ConqueTerm_PromptRegex')
+    let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
+endif " }}}
+
+" Allow user to use <C-w> keys to switch window in insert mode. {{{
+if !exists('g:ConqueTerm_CWInsert')
+    let g:ConqueTerm_CWInsert = 0
+endif " }}}
