@@ -1,11 +1,12 @@
 
-
+---
 == Requirements ==
 
-  * Unix-like operating system, or Cygwin.
+  * Unix-like operating system: Linux, OS X, Cygwin.
   * Python 2.3
   * Vim 7.1 (python-enabled)
 
+---
 == Installation ==
 
 === Vimball ===
