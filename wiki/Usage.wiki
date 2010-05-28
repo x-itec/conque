@@ -31,6 +31,8 @@ Use the `<F9>` key to send a visual selection from any buffer to the shell. By d
 ----
 == Configuration ==
 
+Place these settings in your `.vimrc` file to customize Conque. Default values are shown below.
+
 ==== Normal mode key ====
 
 *`let g:ConqueTerm_EscKey = '<Esc>'`*
@@ -41,28 +43,25 @@ However, you may want to be able to send the `<Esc>` key to the terminal, instea
 
 Control keys are the only that consistently work. Many others, e.g. the `<F->` keys, are internally coded with an escape at the beginning, and therefore won't work. A control key such as `<C-x>` will work fine.
 
-==== Color mode ===
+==== Color mode ====
 
-" Enable color. {{{
-" If your apps use a lot of color it will slow down the shell.
-if !exists('g:ConqueTerm_Color')
-    let g:ConqueTerm_Color = 1
-endif " }}}
+*`let g:ConqueTerm_Color = 1`*
 
-" TERM environment setting {{{
-if !exists('g:ConqueTerm_TERM')
-    let g:ConqueTerm_TERM =  'vt100'
-endif " }}}
+Color is enabled by default. Color highlighting can slow down your shell significantly if it's heavily used. Setting this option to `0` will make Conque perform much better.
 
-" Syntax for your buffer {{{
-if !exists('g:ConqueTerm_Syntax')
-    let g:ConqueTerm_Syntax = 'conque_term'
-endif " }}}
+==== TERM setting ====
 
-" Keep on updating the shell window after you've switched to another buffer {{{
-if !exists('g:ConqueTerm_ReadUnfocused')
-    let g:ConqueTerm_ReadUnfocused = 0
-endif " }}}
+*`let g:ConqueTerm_TERM =  'vt100'`*
+
+Conque uses the vt100 terminal setting by default. This will disable some features in some programs. You can try changing this to `xterm` if you're feeling adventurous.
+
+==== Update unfocused shell window ====
+
+*`let g:ConqueTerm_ReadUnfocused = 0`*
+
+When you leave the terminal buffer, it will stop receiving updates. Setting this value to `1` will make Conque continue to update unfocused shell buffers. However, I have so far been unable to find a way to make an unfocused buffer scroll down while it's updating. So your mileage may vary.
+
+==== Prompt syntax highlighting ====
 
 " Use this regular expression to highlight prompt {{{
 if !exists('g:ConqueTerm_PromptRegex')
