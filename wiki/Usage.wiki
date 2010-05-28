@@ -63,12 +63,13 @@ When you leave the terminal buffer, it will stop receiving updates. Setting this
 
 ==== Prompt syntax highlighting ====
 
-" Use this regular expression to highlight prompt {{{
-if !exists('g:ConqueTerm_PromptRegex')
-    let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
-endif " }}}
+*`let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'`*
 
-" Allow user to use <C-w> keys to switch window in insert mode. {{{
-if !exists('g:ConqueTerm_CWInsert')
-    let g:ConqueTerm_CWInsert = 0
-endif " }}}
+You can use this regex to color your prompt, instead of using PS1 which is slower.
+
+==== Exit buffer with `<C-w>` in insert mode ====
+
+*`let g:ConqueTerm_CWInsert = 0`*
+
+If you set this value to `1` you will be able to switch to another buffer while you're still in insert mode by pressing `<C-w>k` etc... However this also means that you will no longer be able to send a `<C-w>` key press to the terminal anymore.
+
