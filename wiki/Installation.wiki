@@ -1,6 +1,6 @@
-  * [Installation#Requirements Requirements]
+  * [#Requirements Requirements]
   * [#Installation_instructions Installation instructions]
-  * [Installation#troubleshooting Troubleshooting]
+  * [#troubleshooting Troubleshooting]
 
 ----
 == Requirements ==
