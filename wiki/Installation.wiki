@@ -1,9 +1,9 @@
-  * <a href="#requirements">Requirements</a>
-  * <a href="#installation">Installation instructions</a>
-  * <a href="#troubleshooting">Troubleshooting</a>
+  * [Installation#Requirements Requirements]
+  * [Installation#Installation-instructions Installation instructions]
+  * [Installation#troubleshooting Troubleshooting]
 
 ----
-== <a name="requirements"></a>Requirements ==
+== Requirements ==
 
   * Unix-like operating system: Linux, OS X, Cygwin.
   * Python 2.3
