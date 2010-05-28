@@ -38,10 +38,19 @@ Alternatively, you can download a `.zip` or `.tar.gz` archive of Conque. Copy th
 ----
 == Troubleshooting ==
 
-===== "Conque requires the python interface to be installed" =====
+==== "Conque requires the python interface to be installed" ====
 
 The error message says it all. If you get this message it means either you don't have Python installed on your computer, you don't have a copy of Vim which uses the Python interface, or both.
 
 Python will be available from whatever package manager you're using. Vim and Conque are built with the 2.X versions of Python. Vim (as of 7.2) will not be able to use Python 3.X.
 
 Once you have Python installed, you'll need to get a version of Vim which has the Python interface installed. You can test if your version has it by typing `:echo has('python')` (1=installed, 0=not installed). Most package managers have a version of Vim with Python support. I get it with `vim-gnome` on Ubuntu and `vim-enhanced` on Fedora. If you compile Vim from source, use the `--enable-pythoniterp` option.
+
+==== My screen fills with <F22><F22><F22>... ====
+
+This is usually caused by Vim being in `paste` mode. Use `:set nopaste` to get out of this mode.
+
+==== Nothing happens at all ====
+
+You may have the "tiny" version of Vim installed. This doesn't even have enough features to show an error message. Upgrade your version of Vim to one compiled with a more standard set of features.
+
