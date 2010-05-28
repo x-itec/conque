@@ -1,5 +1,5 @@
   * [Installation#Requirements Requirements]
-  * [Installation#Installation_instructions Installation instructions]
+  * [#Installation_instructions Installation instructions]
   * [Installation#troubleshooting Troubleshooting]
 
 ----
