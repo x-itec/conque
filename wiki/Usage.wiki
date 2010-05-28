@@ -26,7 +26,11 @@ All text typed in `INSERT` mode will be sent to your shell. You can navigate/sea
 ----
 == Special Keys ==
 
-Use the `<F9>` key to send a visual selection from any buffer to the shell. By default, you must press the `<Esc>` key twice to send one escape key press to the terminal (see config below).
+Use the `<F9>` key to send a visual selection from any buffer to the shell. You can also simply yank and paste the text into the shell.
+
+Press `<F5>` to "pause" the terminal. When the terminal is paused you will be able to edit the terminal output in insert mode. You may want to do this to format some shell output to make it more readable. Press `<F5>` again to resume the shell.
+
+By default, you must press the `<Esc>` key twice to send one escape key press to the terminal (see config below).
 
 ----
 == Configuration ==
@@ -72,4 +76,3 @@ You can use this regex to color your prompt, instead of using PS1 which is slowe
 *`let g:ConqueTerm_CWInsert = 0`*
 
 If you set this value to `1` you will be able to switch to another buffer while you're still in insert mode by pressing `<C-w>k` etc... However this also means that you will no longer be able to send a `<C-w>` key press to the terminal anymore.
-
