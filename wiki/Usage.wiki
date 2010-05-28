@@ -31,7 +31,7 @@ Use the `<F9>` key to send a visual selection from any buffer to the shell.
 ----
 == Configuration ==
 
-==== let g:ConqueTerm_EscKey = '<Esc>' ====
+==== `let g:ConqueTerm_EscKey = '<Esc>'` ====
 
 
 " Enable color. {{{
