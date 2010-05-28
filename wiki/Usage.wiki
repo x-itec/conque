@@ -26,13 +26,22 @@ All text typed in `INSERT` mode will be sent to your shell. You can navigate/sea
 ----
 == Special Keys ==
 
-Use the `<F9>` key to send a visual selection from any buffer to the shell.
+Use the `<F9>` key to send a visual selection from any buffer to the shell. By default, you must press the `<Esc>` key twice to send one escape key press to the terminal (see config below).
 
 ----
 == Configuration ==
 
-==== `let g:ConqueTerm_EscKey = '<Esc>'` ====
+==== Normal mode key ====
 
+*`let g:ConqueTerm_EscKey = '<Esc>'`*
+
+This option lets you choose which key you will use to leave insert mode, which also takes you out of the terminal input mode. By default this is the `<Esc>` key, like a normal Vim buffer.
+
+However, you may want to be able to send the `<Esc>` key to the terminal, instead of leaving insert mode, for example if you use Vim key mappings to edit the bash command line. In this case you can configure Conque to use a different key to leave insert mode, and pressing `<Esc>` will send that key press to the terminal.
+
+Control keys are the only that consistently work. Many others, e.g. the `<F->` keys, are internally coded with an escape at the beginning, and therefore won't work. A control key such as `<C-x>` will work fine.
+
+==== Color mode ===
 
 " Enable color. {{{
 " If your apps use a lot of color it will slow down the shell.
