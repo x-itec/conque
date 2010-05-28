@@ -1,0 +1,35 @@
+
+  * [#Basic_Usage Basic Usage]
+  * [#Special_Keys Special Keys]
+  * [#Configuration Configuration Options]
+
+----
+== Basic Usage ==
+
+Type `:ConqueTerm <command>` to run your command in vim, for example:
+
+{{{
+:ConqueTerm bash
+:ConqueTerm mysql -h localhost -u joe -p sock_collection
+:ConqueTerm ipython
+}}}
+
+To open Conque in a new horizontal or vertical buffer use:
+
+{{{
+:ConqueTermSplit <command>
+:ConqueTermVSplit <command>
+:ConqueTermTab <command>
+}}}
+
+All text typed in insert mode will be sent to your shell. 
+
+----
+== Special Keys ==
+
+Use the `<F9>` key to send a visual selection from any buffer to the shell.
+
+----
+== Configuration ==
+
+
