@@ -5,17 +5,19 @@
  * send entire buffer contents to conque instead of just visual selection
  * check for paste mode
  * numeric keypad
+ * fix gVim paste
+ * check for resized window upon entering insert mode
 
  -- Non-Trivial --
 
  * deal with CursorHold/Moved conflicts
  * build shell script for automated performance profiling
- * check for resized window upon entering insert mode
- * re-review polling for a method which doesn't require leaving insert mode
+ * re-review polling for performance enhancements
 
  -- Probably Impossible --
 
  * scroll unfocused buffer
+ * make color highlighting faster
 
 
 
