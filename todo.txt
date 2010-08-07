@@ -7,12 +7,14 @@
  * numeric keypad
  * fix gVim paste
  * check for resized window upon entering insert mode
+ * fix cursor move with readunfocused
 
  -- Non-Trivial --
 
  * deal with CursorHold/Moved conflicts
  * build shell script for automated performance profiling
  * re-review polling for performance enhancements
+ * expand character sets
 
  -- Probably Impossible --
 
