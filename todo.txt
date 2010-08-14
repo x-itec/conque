@@ -21,7 +21,6 @@
  * scroll unfocused buffer
  * make color highlighting faster
 
-
  -- ************************************* --
 
  x fix colors (see Issue)
