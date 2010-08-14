@@ -22,7 +22,6 @@
  * make color highlighting faster
 
 
-
  -- ************************************* --
 
  x fix colors (see Issue)
