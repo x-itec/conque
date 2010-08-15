@@ -1,13 +1,10 @@
 
  -- Trivial --
 
- * allow configuration of <f9> etc
  * send entire buffer contents to conque instead of just visual selection
  * check for paste mode
  * numeric keypad
  * fix gVim paste
- * check for resized window upon entering insert mode
- * fix cursor move with readunfocused
 
  -- Non-Trivial --
 
@@ -30,4 +27,7 @@
  x allow C-w in insert mode (see Issue)
  x check Bram's <f\e> suggestion for normal mode timer
  x temporarily set 'switchbuf' to useopen/tab on <f9>
+ x allow configuration of <f9> etc
+ x fix cursor move with readunfocused
+ x check for resized window upon entering insert mode
 
