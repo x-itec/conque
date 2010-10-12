@@ -7,7 +7,7 @@
 
   * Unix-like operating system: Linux, OS X, Cygwin.
   * Python 2.3
-  * Vim 7.1 (python-enabled)
+  * Vim 7.0 (python-enabled)
 
 ----
 == Installation instructions ==
@@ -17,7 +17,7 @@
 Vim is now bundled with a plugin management utility called "Vimball", and it can be used to install Conque. First, download a `.vba` version of conque to any location on your hard drive. Then perform the following commands:
 
 {{{
-vim conque_term_XXX.vba
+vim conque_XXX.vba
 :so %
 :q
 }}}
