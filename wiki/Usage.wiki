@@ -1,3 +1,5 @@
+<wiki:toc max_depth="2" />
+
 ----
 == 1. Installation ==
 
@@ -392,4 +394,3 @@ Bugs, suggestions and patches are all welcome.
 For more information visit http://conque.googlecode.com
 
 Check out the latest from svn at http://conque.googlecode.com/svn/trunk/
-
