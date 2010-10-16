@@ -8,6 +8,10 @@
  * test python.exe searching
  * update docs
 
+ * don't create new unicode buffer on each read
+ * check process health occasionally
+
+
  -- Up next --
 
  * use InsertCharPre event for unicode input
