@@ -1,15 +1,13 @@
 
  -- For Conque 2.0 --
 
- * investigate "more" input problems
+ * allow F- keys
  * finish dependency messaging
  * test on XP, Vista and 7 with Python 2, 3 and 2+3
  * test unicode output
  * test python.exe searching
+ * check for CursorHold events
  * update docs
-
- * don't create new unicode buffer on each read
- * check process health occasionally
 
 
  -- Up next --
@@ -20,6 +18,7 @@
 
  -- Backlog --
 
+ * investigate "more" input problems
  * fix gVim paste
  * add option to use conceal for syntax highlighting
  * deal with CursorHold/Moved conflicts
@@ -39,13 +38,15 @@
 
  -- ************************************* --
 
- X allow colors to be written to line more than once
- X slow subprocess loops to 1/sec when buffer is unfocused
- X use better way of determining if buffer length should be extended, e.g. cursor position
- X resize console window when buffer size changes
- X fix number syntax highlighting
- X call ctypes directly instead of using python for windows extensions
- X fix Ctrl-D in python.exe
+ x don't create new unicode buffer on each read
+ x check process health occasionally
+ x allow colors to be written to line more than once
+ x slow subprocess loops to 1/sec when buffer is unfocused
+ x use better way of determining if buffer length should be extended, e.g. cursor position
+ x resize console window when buffer size changes
+ x fix number syntax highlighting
+ x call ctypes directly instead of using python for windows extensions
+ x fix Ctrl-D in python.exe
 
  x fix colors (see Issue)
  x allow pausing mappings so user can edit screen
