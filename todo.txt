@@ -1,12 +1,7 @@
 
  -- For Conque 2.0 --
 
- * allow F- keys
- * finish dependency messaging
  * test on XP, Vista and 7 with Python 2, 3 and 2+3
- * test unicode output
- * test python.exe searching
- * check for CursorHold events
  * update docs
 
 
@@ -18,6 +13,7 @@
 
  -- Backlog --
 
+ * test unicode output
  * investigate "more" input problems
  * fix gVim paste
  * add option to use conceal for syntax highlighting
@@ -38,6 +34,10 @@
 
  -- ************************************* --
 
+ x finish dependency messaging
+ x test python.exe searching
+ x check for CursorHold events
+ x allow F- keys
  x don't create new unicode buffer on each read
  x check process health occasionally
  x allow colors to be written to line more than once
