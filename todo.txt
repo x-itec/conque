@@ -2,6 +2,8 @@
  -- For Conque 2.0 --
 
  * test on XP, Vista and 7 with Python 2, 3 and 2+3
+ * test with python profiling
+ * make code closer to pep8
  * update docs
 
 
