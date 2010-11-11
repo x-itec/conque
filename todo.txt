@@ -3,7 +3,6 @@
 
  * test on XP, Vista and 7 with Python 2, 3 and 2+3
  * test with python profiling
- * make code closer to pep8
  * update docs
 
 
@@ -12,6 +11,7 @@
  * use InsertCharPre event for unicode input
  * unicode output
  * scroll unfocused buffer
+ * xterm
 
  -- Backlog --
 
@@ -36,6 +36,7 @@
 
  -- ************************************* --
 
+ x make code closer to pep8
  x finish dependency messaging
  x test python.exe searching
  x check for CursorHold events
