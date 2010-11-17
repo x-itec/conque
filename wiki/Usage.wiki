@@ -9,7 +9,7 @@ to your installed OS.
 
 ==== 1.1 Requirements for Unix ====
 
- * [G]Vim 7.0+ with +python and/or +python3
+ * G/Vim 7.0+ with +python and/or +python3
  * Python 2.3+ and/or 3.x
  * Unix-like OS: Linux, OS X, Solaris, Cygwin, etc
 
@@ -22,7 +22,7 @@ MacVim, which installs with Python support by default.
 
 ==== 1.2 Requirements for Windows ====
 
- * [G]Vim 7.3 with +python and/or +python3
+ * G/Vim 7.3 with +python and/or +python3
  * Python 2.7 and/or 3.1
  * Modern Windows OS (XP or later)
 
@@ -443,4 +443,3 @@ Bugs, suggestions and patches are all welcome.
 For more information visit http://conque.googlecode.com
 
 Check out the latest from svn at http://conque.googlecode.com/svn/trunk/
-
