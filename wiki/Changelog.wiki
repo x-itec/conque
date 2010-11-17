@@ -1,5 +1,10 @@
 = Changelog =
 
+== 2.0 2010-11-16 ==
+
+ * Windows support added
+ * Python 3 support added
+ * Bugfixes
 
 == 1.2 2010-10-10 ==
 
