@@ -41,7 +41,7 @@ Open the .vba file with Vim and run the following commands:
     :so %
     :q
 }}}
-That's it! The :ConqueTerm command will be available the next time you start
+That's it! The !:ConqueTerm command will be available the next time you start
 Vim. You can delete the .vba file when you've verified Conque was successfully
 installed.
 
@@ -51,14 +51,14 @@ installed.
 
 === 2.1 General Usage ===
 
-Type :ConqueTerm `<command>` to launch an application in the current buffer. Eg:
+Type `:ConqueTerm <command>` to launch an application in the current buffer. Eg:
 {{{
     :ConqueTerm bash
     :ConqueTerm mysql -h localhost -u joe_lunchbox Menu
     :ConqueTerm Powershell.exe
 }}}
-Use :ConqueTermSplit or :ConqueTermVSplit to open Conque in a new horizontal
-or vertical buffer. Use :ConqueTermTab to open Conque in a new tab.
+Use `:ConqueTermSplit` or `:ConqueTermVSplit` to open Conque in a new horizontal
+or vertical buffer. Use `:ConqueTermTab` to open Conque in a new tab.
 
 In insert mode you can interact with the shell as you would expect in a 
 normal terminal. All key presses will be sent to the terminal, including 
