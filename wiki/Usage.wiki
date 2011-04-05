@@ -3,9 +3,7 @@
 ----
 == 1. Installation ==
 
-Conque is designed for both Unix and Windows operating systems, however the
-requirements are slightly different. Please check section below corresponding
-to your installed OS.
+Conque is designed for both Unix and Windows operating systems, however the requirements are slightly different. Please check section below corresponding to your installed OS.
 
 === 1.1 Requirements for Unix ===
 
@@ -13,12 +11,7 @@ to your installed OS.
  * Python 2.3+ and/or 3.x
  * Unix-like OS: Linux, OS X, Solaris, Cygwin, etc
 
-The most common stumbling block is getting a version of Vim which has the 
-python interface enabled. Most all software package managers will have a copy
-of Vim with Python support, so that is often the easiest way to get it. If 
-you're compiling Vim from source, be sure to use the --enable-pythoninterp 
-option, or --enable-python3interp for Python 3. On OS X the best option is 
-MacVim, which installs with Python support by default.
+The most common stumbling block is getting a version of Vim which has the python interface enabled. Most all software package managers will have a copy of Vim with Python support, so that is often the easiest way to get it. If you're compiling Vim from source, be sure to use the --enable-pythoninterp option, or --enable-python3interp for Python 3. On OS X the best option is !MacVim, which installs with Python support by default.
 
 === 1.2 Requirements for Windows ===
 
