@@ -1,5 +1,13 @@
 = Changelog =
 
+== 2.1 2011-04-04 ==
+
+ * Various performance improvements (Fast mode option)
+ * Improved unicode handling
+ * API additions (user-defined callback functions)
+ * New key shortcuts (execute current file in Conque, etc...)
+ * Bugfixes
+
 == 2.0 2010-11-16 ==
 
  * Windows support added
