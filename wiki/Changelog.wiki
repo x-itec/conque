@@ -1,5 +1,9 @@
 = Changelog =
 
+== 2.2 2011-08-12 ==
+
+ * Bugfixes. No new features.
+
 == 2.1 2011-04-04 ==
 
  * Various performance improvements (Fast mode option)
